@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+    background: hsl(226, 43%, 10%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+}
+@media only screen and (max-width: 376px) {
+    body {
+        font-size: 0.8em;
+    }
+}

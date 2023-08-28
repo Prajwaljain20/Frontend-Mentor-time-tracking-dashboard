@@ -1,0 +1,158 @@
+.img {
+    height: 60px;
+    width: 60px;
+    background: url('../assets/images/image-jeremy.png') no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+h1, h4, h5 {
+    font-weight: 200;
+}
+.profile-details > h5 {
+    margin-top: 40px;
+}
+h4, h5 {
+    color: hsl(246, 80%, 80%);
+    cursor: pointer;
+}
+.index:hover, .selectedIndex {
+    color: hsl(0, 0%, 100%);
+}
+.profile-details > h1 {
+    margin-top: -20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    column-gap: 40px;
+    margin: 10% 18%;
+}
+.profile {
+    width: 180px;
+    height: 250px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px 0 0 30px;
+    border-radius: 10px;
+    margin: -30px 0 0 -30px;
+}
+.card-img {
+    width: 210px;
+    padding-top: 35px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.card-img:nth-child(even) {
+    margin-top: 50px;
+}
+.card {
+    width: 180px;
+    padding: 30px 0 5px 30px;
+    border-radius: 10px;
+    background: hsl(235, 46%, 20%);
+}
+.card:hover {
+    background: hsl(235, 46%, 30%);
+}
+.title > h4 {
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-top: -10px;
+    font-size: 18px;
+}
+.card-detail > h5 {
+    margin-top: -30px;
+}
+.card-detail > h1 {
+    font-size: 48px;
+    margin-top: -10px;
+}
+.title {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 70px;
+}
+.dots {
+    height: 5px;
+    width: 16px;
+    margin-top: -1px;
+    background: url('../assets/images/icon-ellipsis.svg') no-repeat center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#work {
+    background: url('../assets/images/icon-work.svg') no-repeat, hsl(15, 100%, 70%);
+}
+#play {
+    background: url('../assets/images/icon-play.svg') no-repeat, hsl(195, 74%, 62%);
+}
+#study {
+    background: url('../assets/images/icon-study.svg') no-repeat, hsl(348, 100%, 68%);
+}
+#exercise {
+    background: url('../assets/images/icon-exercise.svg') no-repeat, hsl(145, 58%, 55%);
+}
+#social {
+    background: url('../assets/images/icon-social.svg') no-repeat, hsl(264, 64%, 52%);
+}
+#self {
+    background: url('../assets/images/icon-self-care.svg') no-repeat, hsl(43, 84%, 65%);
+}
+#work, #play, #study, #exercise, #social, #self {
+    background-position: right 10% bottom 105%;
+    background-size: 60px 60px;
+}
+.attribution { font-size: 11px; text-align: center; position: fixed; bottom: 0; width: 100%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+@media only screen and (max-width: 376px) {
+    .container {
+        display: block;
+        margin: 10% 0 0 7%;
+    }
+    .card-img {
+        width: 310px;
+        margin: 50px 0;
+    }
+    .card {
+        width: 280px;
+        padding: 30px 0 5px 30px;
+    }
+    .profile {
+        display: grid;
+        width: 280px;
+        height: 100px;
+        grid-template-columns: auto auto;
+    }
+    .index {
+        display: inline-block;
+        margin: 10px 20px;
+    }
+    .profile-details > h5 {
+        margin-top: 10px;
+    }
+    .profile-details > h1 {
+        margin-top: -10px;
+    }
+    .dots {
+        position: absolute;
+        margin-left: 240px;
+    }
+    .title > h4 {
+        margin-left: -10px;
+        font-size: 16px;
+    }
+    .card-detail {
+        margin-left: -10px;
+    }
+    .card-detail > h1 {
+        font-size: 38px
+    }
+    .card-detail > h5 {
+        font-size: 14px;
+        float: right;
+        margin: -50px 20px 0 0;
+    }
+    .attribution {
+        position: relative;
+    }
+}

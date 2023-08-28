@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="card">
+    <div class="profile">
+      <div class="img"></div>
+        <div class="profile-details">
+          <h5>
+            Report for
+          </h5>
+          <h1>
+            Jeremy Robson
+          </h1>
+        </div>
+    </div>
+    <h4 class="index" *ngFor="let index of indexes" [textContent]="index" (click)="selectedIndex(index)"
+      [ngClass]="currentIndex === index ? 'selectedIndex' : ''"></h4>
+  </div>
+  <div class="row" *ngFor="let cardData of dataArray">
+    <div class="card-img" [id]="cardDetail.style" *ngFor="let cardDetail of cardData">
+      <div class="card">
+        <div class="title">
+          <h4 class="card-title" [textContent]="cardDetail.title"></h4>
+          <div class="dots"></div>
+        </div>
+        <div class="card-detail">
+          <h1 class="current" [textContent]="cardDetail.timeframes[record].current + 'hrs'"></h1>
+          <h5 class="previous" [textContent]="lastRecord + cardDetail.timeframes[record].previous + 'hrs'"></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/Prajwaljain20">Prajwal Jain</a>.
+</div>
