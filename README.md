@@ -23,12 +23,14 @@ Users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Screenshot
+![image](https://github.com/Prajwaljain20/Frontend-Mentor-time-tracking-dashboard/assets/76695932/fa2bf336-fe97-4ae9-876e-c74d143e983e)
 
+![image](https://github.com/Prajwaljain20/Frontend-Mentor-time-tracking-dashboard/assets/76695932/4d3c0e44-e242-4d87-8177-389447c315aa)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Prajwaljain20/Frontend-Mentor-time-tracking-dashboard)
+- Live Site URL: [Firebase URL](https://time-tracking-dashboard-edd8e.web.app/)
 
 ## My process
 
